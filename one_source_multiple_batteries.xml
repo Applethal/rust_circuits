@@ -1,4 +1,4 @@
-<!-- rustrician.io circuit :: Thu May 29 2025 11:49:49 GMT+0200 (Central European Summer Time) -->
+<!-- rustrician.io circuit :: Thu May 29 2025 12:02:00 GMT+0200 (Central European Summer Time) -->
 <mxGraphModel>
   <root>
     <mxCell id="0"/>
@@ -121,7 +121,7 @@
     <mxCell id="24" value="Fully Charged" style="portv" vertex="1" type="out" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="21">
       <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="25" value="0" edge="1" disabled="0" hovered="0" link="81" origin="2" parent="1" source="11" target="22">
+    <mxCell id="25" value="0" edge="1" disabled="0" hovered="0" link="83" origin="2" parent="1" source="11" target="22">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="370" y="60"/>
@@ -218,7 +218,7 @@
         </Array>
       </mxGeometry>
     </mxCell>
-    <mxCell id="44" value="100" edge="1" disabled="0" hovered="0" link="81" origin="2" parent="1" source="12" target="28">
+    <mxCell id="44" value="100" edge="1" disabled="0" hovered="0" link="83" origin="2" parent="1" source="12" target="28">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="390" y="100"/>
@@ -344,7 +344,7 @@
     <mxCell id="67" value="Power Out" style="portv" vertex="1" type="out" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="64">
       <mxGeometry x="0.6" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="68" value="97" edge="1" disabled="0" hovered="0" origin="2" link="77" parent="1" source="67" target="57">
+    <mxCell id="68" value="97" edge="1" disabled="0" hovered="0" origin="2" link="82" parent="1" source="67" target="57">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="745.6626506024096" y="176.144578313253"/>
@@ -358,7 +358,7 @@
         </Array>
       </mxGeometry>
     </mxCell>
-    <mxCell id="70" value="1" edge="1" disabled="0" hovered="0" origin="2" link="77" parent="1" source="66" target="49">
+    <mxCell id="70" value="1" edge="1" disabled="0" hovered="0" origin="2" link="82" parent="1" source="66" target="49">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="475.66265060240966" y="286.14457831325296"/>
@@ -382,47 +382,16 @@
         </Array>
       </mxGeometry>
     </mxCell>
-    <mxCell id="73" value="Blocker" style="cmp_blocker" vertex="1" connectable="0" parent="1">
-      <mxGeometry x="750" y="420" width="64" height="64" as="geometry"/>
-      <Object cmpid="blocker" consumption="0" state="0" passthrough="0" blockable="1" usage="0" rotatable="1" rotation="0" as="attrs"/>
-      <Array as="props"/>
-      <Object mf="75" as="craft"/>
-    </mxCell>
-    <mxCell id="74" value="Power In" style="portv" vertex="1" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="73">
-      <mxGeometry x="0.4" y="1.05" width="10" height="10" relative="1" as="geometry"/>
-    </mxCell>
-    <mxCell id="75" value="Block Passthrough" style="portv" vertex="1" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="73">
-      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
-    </mxCell>
-    <mxCell id="76" value="Power Out" style="portv" vertex="1" type="out" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="73">
-      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
-    </mxCell>
-    <mxCell id="77" value="98" edge="1" disabled="0" hovered="0" link="78" origin="2" parent="1" source="76" target="65">
-      <mxGeometry relative="1" as="geometry"/>
-    </mxCell>
-    <mxCell id="78" value="98" edge="1" disabled="0" hovered="0" origin="2" link="54" parent="1" source="52" target="74">
-      <mxGeometry relative="1" as="geometry">
-        <Array as="points">
-          <mxPoint x="685.6626506024097" y="356.14457831325296"/>
-          <mxPoint x="685.6626506024097" y="526.144578313253"/>
-          <mxPoint x="785.6626506024095" y="516.144578313253"/>
-        </Array>
-      </mxGeometry>
-    </mxCell>
-    <mxCell id="79" value="95" edge="1" disabled="0" hovered="0" origin="2" link="69" parent="1" source="63" target="75">
-      <mxGeometry relative="1" as="geometry">
-        <Array as="points">
-          <mxPoint x="775.6626506024096" y="-33.85542168674701"/>
-        </Array>
-      </mxGeometry>
-    </mxCell>
     <mxCell id="80" value="1" edge="1" disabled="0" hovered="0" origin="13" link="0" parent="1" source="16" target="50">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="81" value="100" edge="1" disabled="0" hovered="0" origin="2" link="0" parent="1" source="4" target="7">
+    <mxCell id="82" value="98" edge="1" disabled="0" hovered="0" parent="1" source="52" target="65" origin="2" link="54">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="83" value="100" edge="1" disabled="0" hovered="0" parent="1" source="4" target="7" origin="2" link="0">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
-          <mxPoint x="219.66265060240966" y="207.144578313253"/>
+          <mxPoint x="219" y="203.7"/>
         </Array>
       </mxGeometry>
     </mxCell>
